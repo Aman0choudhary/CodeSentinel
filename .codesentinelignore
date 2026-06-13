@@ -1,0 +1,20 @@
+# Dependency folders
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Python virtualenv and cache
+.venv/
+venv/
+__pycache__/
+
+# Minified or generated assets
+*.min.js
+*.map
+
+# Report outputs
+reports/
+codesentinel-reports/
