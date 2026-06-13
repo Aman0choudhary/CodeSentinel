@@ -1,0 +1,41 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Tool and editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Generated reports and outputs
+reports/
+codesentinel-reports/
+
+# Dependency folders from other ecosystems
+node_modules/
+vendor/
+
+# Misc generated assets
+*.min.js
+*.map

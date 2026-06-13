@@ -5,6 +5,7 @@ SEVERITY_ORDER = ["CRITICAL", "HIGH", "MEDIUM", "LOW", "INFO"]
 
 
 def generate_markdown(report: dict, repo_name: str, output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     lines = []
     lines.append("# CodeSentinel Audit Report")
     lines.append("")
